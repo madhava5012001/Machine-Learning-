@@ -1,0 +1,3 @@
+https://towardsdatascience.com/k-nearest-neighbors-knn-explained-cbc31849a7e3
+
+https://www.ritchieng.com/machine-learning-efficiently-search-tuning-param/
