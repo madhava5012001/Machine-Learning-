@@ -1,0 +1,79 @@
+import pandas as pd
+df = pd.read_csv('fortunes.csv')
+df = pd.read_csv('fortune1000.csv')
+df
+df
+type(df)
+df.columns
+df.groupby('Sector')
+df.sectors
+df
+sectors = df.groupby('Sector')
+sectors = df.groupby('Sector')
+sectors
+sectors.head()
+sectors.size()
+df.columns"
+df.columns
+sectors.shape
+sectors
+sectors.tail(4)
+sectors.size()
+len(sectors)
+sectors = df.groupby('Sector')
+type(sectors)
+sectors.size()
+industry = df.groupby('Industry')
+industry.size()
+len(industry)
+sectors
+sectors.size()
+df['Sectors'].value_counts()
+df['Sector'].value_counts()
+sectors.size()
+sectors.get_group("Energy")
+sectors.get_group("Technology")
+sectors.get_group("Technology").size()
+sectors.get_group("Technology")
+sectors.get_group("Technology").size
+sectors.get_group("Energy").size
+sectors.get_group("Technology").sum()
+sectors.get_group("Technology").sum
+sectors.get_group("Technology")
+sectors.max()
+sectors['Employees']. max()
+sectors
+sectors.head()
+sectors['Profits'].max()
+sectors['Profits'].sum()
+sectors['Profits'].mean()
+sectors.head()
+sectors['Employees']. max()
+sectors.head(2)
+sectors['Employees']. min()
+sectors['Employees']. sum()
+sectors['Employees'].mean()
+sectors['Employees'].max()
+sectors['Employees'].max().first()
+sectors['Employees'].max().first
+sectors['Employees'].max()
+modemp= sectors['Employees'].max()
+modemp
+modemp.sort_values()
+modemp.first()
+modemp.first
+modemp.sort_values()
+modemp= sectors['Employees'].max().sort_values()
+sectors['Employees'].max().sort_values(ascending='False')
+sectors['Employees'].max().sort_values(ascending=False)
+sectec = df.groupby(['Sector,Industry'])
+df.columns
+sectec = df.groupby(['Sector','Industry'])
+sectec
+sectec.size()
+sectec['Employee'].sum()
+sectec['Employees'].sum()
+sectec['Employees'].sum()
+sectec['Revenue'].mean()
+sectec["Employees"].sum()
+%history
